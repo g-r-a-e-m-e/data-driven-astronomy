@@ -6,5 +6,4 @@ def dms_to_dec(deg, arc_m, arc_s):
     dec_deg = deg + (arc_m / 60) + (arc_s / (60 * 60))
   else:
     dec_deg = -1 * (abs(deg) + (arc_m / 60) + (arc_s / (60 * 60)))
-
   return dec_deg
